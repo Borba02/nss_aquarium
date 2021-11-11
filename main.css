@@ -1,0 +1,59 @@
+header {
+    border: 1px solid red;
+    margin: 1em;
+    background-color: rosybrown;
+}
+
+main {
+    border: 1px solid red;
+    background-color: royalblue;
+    margin: 1em;
+    display: flex;
+    
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    min-width: 75%;
+}
+
+.content__fish-list {
+    border: 1px solid red;
+    background-color: silver;
+    margin: 1em;
+    padding: .5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.content__quote-list {
+    border: 1px solid red;
+    background-color: silver;
+    margin: 1em;
+    padding: .5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.content__location-list {
+    border: 1px solid red;
+    background-color: silver;
+    margin: 1em;
+    padding: .5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.list-cards{
+
+    border: 1px solid red;
+    max-width: 33%;
+    
+}
+
+sidebar {
+    border: 1px solid red;
+    background-color: tomato;
+    display: flex;
+    min-width: 25%;
+}
